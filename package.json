@@ -1,0 +1,22 @@
+{
+  "name": "prepack-webpack-plugin-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm i && npm run build && npm start",
+    "build": "webpack",
+    "start": "http-server -c-1"
+  },
+  "author": "Kay Plößer",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "http-server": "^0.10.0",
+    "preact": "^8.1.0",
+    "prepack-webpack-plugin": "^1.1.0",
+    "webpack": "^2.5.0"
+  }
+}
